@@ -63,17 +63,17 @@ public class Modelo {
         this.previousNumber = previousNumber;
     }
 
-    @Override
+
     public void registerObserver (Observer o) {
         observers.add(o);
     }
 
-    @Override
+
     public void unregisterObserver (Observer o) {
         observers.remove(o);
     }
 
-    @Override
+
     public void notifyObservers() {
         this.observers.forEach(Observer::update);
     }
