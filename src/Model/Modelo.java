@@ -1,5 +1,6 @@
 package Model;
-
+import Observer.*;
+import java.util.ArrayList;
 public class Modelo {
     private ArrayList<Observer> observers;
 
@@ -7,7 +8,7 @@ public class Modelo {
     private double previousNumber;
     private String currentTypeOfOperation;
 
-    public CalculatorModel () {
+    public Modelo () {
         observers = new ArrayList<>();
         number = 0;
         previousNumber = 0;

@@ -1,12 +1,17 @@
 package Controller;
 
-import Observer.Observer;
+import Observer.*;
+import View.vie;
 import Model.Modelo;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Objects;
 public class Control implements Observer {
-    private final CalculatorView view;
-    private final CalculatorModel model;
+    private final vie view;
+    private final Modelo model;
 
-    public CalculatorController (CalculatorView view, CalculatorModel model) {
+    public Control (vie view, Modelo model) {
         this.view = view;
         this.model = model;
 

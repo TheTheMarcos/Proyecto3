@@ -6,7 +6,7 @@ public class vie extends JFrame{
     private JButton jb1, jb2, jb3, jb4, jb5, jb6, jb7, jb8, jb9, jb0, jbClear, jbAdd, jbSubstract, jbMultiply, jbDivide, jbEqual;
     private JTextField jtfResult, jtfPreviousOperation;
 
-    public CalculatorView() {
+    public vie() {
         this.setSize(400, 400);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
